@@ -15,7 +15,7 @@ int DHT_MODEL = 11;
 int DHT_PIN = 7;
 MALC.set_dht_pin(DHT_PIN ,DHT_MODEL);
 ```
-**Open and Close One Relay**
+**Open and Close One Relay**  
 _When open a one relay write to **EEPROM**._  
 _**EEPROM** address equals to relay_pin array index number._  
 
