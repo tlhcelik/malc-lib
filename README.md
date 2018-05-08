@@ -10,8 +10,10 @@ malc MALC;
 **Setting Relay and DHT 11 Pins**
 ```c
 int relay_pins[4]={2,3,4,5};
-MALC.set_relay_pins(relay_pins,4);
-MALC.set_dht_pin(7,11);
+MALC.set_relay_pins(relay_pins ,relay_pins.lenght);
+int DHT_MODEL = 11;
+int DHT_PIN = 7;
+MALC.set_dht_pin(DHT_PIN ,DHT_MODEL);
 ```
 
 **Open and Close All Relays**
